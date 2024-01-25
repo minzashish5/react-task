@@ -1,12 +1,12 @@
-import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
+import { useState } from 'react'
 
+const App=()=>{
+ 
+  return (
 
-const App=()=>(
-    <Router>
-      <Routes>
-          <Route path="/" elment={<Homepage />}/>
-      </Routes>
-    </Router>
-)
-
-export default App
+    
+    )
+  }
+  
+  export default App;
+  
