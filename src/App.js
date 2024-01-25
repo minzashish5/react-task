@@ -1,11 +1,12 @@
-import "font-awesome/css/font-awesome.min.css"
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 
-function App() {
-  return (
-      <>
-        
-      </>
-  );
-}
 
-export default App;
+const App=()=>(
+    <Router>
+      <Routes>
+          <Route path="/" elment={<Homepage />}/>
+      </Routes>
+    </Router>
+)
+
+export default App
